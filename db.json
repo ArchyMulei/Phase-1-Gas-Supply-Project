@@ -1,0 +1,36 @@
+{
+    "brands": {
+      "totalgas": {
+        "name" : "totalgas",
+        "imageUrl": "https://i0.wp.com/mamagas.co.ke/wp-content/uploads/2022/10/afrigas-13kg-200x258-NEW.jpg?fit=620%2C620&ssl=1",
+        "quantity" : 45     
+
+        },
+
+      "progas": {
+        "name" : "progas",
+         "imageUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.facebook.com%2FProgasKenya%2Fposts%2F6-kg-au-13-kg-unatumia-gani-progas-kenyanmade-reliable-clean-energy%2F1261550643981451%2F&psig=AOvVaw0Q6V70s8NXh6li8MO7KQ5S&ust=1705730186577000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCMiNvKHi6IMDFQAAAAAdAAAAABAD",
+         "quantity" : 40
+        },
+
+      "kgas": { 
+        "name" : "kgas",
+        "imageUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fgobeba.com%2Fproduct%2Frubis-kenol-kobil-k-gas-13kg-refill%2F&psig=AOvVaw0SwcLbPQ6ijS9PDjlcWKGo&ust=1705730212638000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCPjBqK7i6IMDFQAAAAAdAAAAABAD",
+        "quantity" : 35    
+       },
+
+      "olagas": { 
+        "name" : "olagas",
+        "imageUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fshopandgo.ug%2Fproduct%2Fola-energy-ola-energy-mpishi-gas-cylinder-6kg-with-gas-but-no-accessories%2F&psig=AOvVaw3nht2w7ZdraVR8itJmiXrp&ust=1705730236454000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCNDgjLri6IMDFQAAAAAdAAAAABAD",
+        "quantity" : 70
+     },
+
+
+      "afrigas": { 
+        "name" : "afrigas",
+        "imageUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmaqsuppliers.com%2Fproduct%2Fafri-gas-6kg%2F&psig=AOvVaw3I8xPNNsiR4XVHJncjDfjd&ust=1705730262345000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCNiK68Ti6IMDFQAAAAAdAAAAABAD",
+         "quantity" : 20
+      }
+    }
+  }
+  
