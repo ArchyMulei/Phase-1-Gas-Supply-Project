@@ -7,39 +7,51 @@
     <title>GAS SUPPLY</title>
 </head>
 <body>
-    <h1>GAS SUPPLY PROJECT</h1>
-    <div id="gasCylinderInfo">
-        <!-- Gas cylinder information will be displayed here -->
-        <h2><U>CHOOSE YOUR FAVORITE GAS CYLINDER</U></h2>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Order Now</a></li>
+            </ul>
+        </nav>
+        <h1>GAS SUPPLY PROJECT</h1>
+    </header>
 
-        <form id="orderForm">
+    <div id="gasCylinderInfo">
+        <h2><u>CHOOSE YOUR FAVORITE GAS CYLINDER</u></h2>
+
+        <form id="orderForm" onsubmit="return fetchBrandImage()">
             <label for="cylinderSize">Select Cylinder Size:</label><br>
             <select name="cylinderSize" id="cylinderSize">
                 <option value="small">3 KG</option>
                 <option value="medium">6 KG</option>
                 <option value="large">12 KG</option>
                 <option value="extra large">20 KG</option>
-            </select>                                 
-        </form> 
-        <br>       
+            </select>
+            <br>
 
-        <form action="/submit_order" method="post">
-            <form action="#" method="post" onsubmit="return fetchBrandImage()"></form>
             <label for="cylinderBrand">Select Cylinder Brand:</label><br>
             <select name="cylinderBrand" id="cylinderBrand">
                 <option value="totalgas">TOTAL GAS</option>
                 <option value="progas">ProGas</option>
                 <option value="kgas">K-GAS</option>
                 <option value="olagas">OLA GAS</option>
-                <option value="afrigas">AFRI GAS</option>                
+                <option value="afrigas">AFRI GAS</option>
             </select>
             <br>
-            <input type="submit" value="Submit Order">  
-            <!-- Display area for the brand image -->
+            <input type="submit" value="Submit Order">
+        </form>
+
+        <!-- Display area for the brand image -->
         <div id="brandImageContainer"></div>
-    </div>   
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Gas Cylinder Supply</p>
+    </footer>
+
     <script src="index.js"></script>
 </body>
 </html>
-       <!--<img src="https://i0.wp.com/mamagas.co.ke/wp-content/uploads/2022/10/afrigas-13kg-200x258-NEW.jpg?fit=620%2C620&ssl=1">>
-        
